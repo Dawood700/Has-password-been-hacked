@@ -29,7 +29,7 @@ def check(info):
 def main():
     times_hacked = check(user_input) # Return to user whether or not their password has been hacked
     if times_hacked:
-        return f"{user_input} was found {times_hacked} times"
+        return f"{user_input} has been hacked {times_hacked} times"
     else:
         return f"{user_input} was not found"
 
